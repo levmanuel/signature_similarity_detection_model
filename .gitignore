@@ -1,0 +1,22 @@
+# Ignorer les environnements virtuels
+venv/
+.venv/
+
+# Ignorer les dossiers de données
+data/
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+
+# Fichiers de log
+*.log
+
+# Fichiers de configuration locaux
+.env
+*.env
+
+# Fichiers de cache ou temporaires
+*.tmp
+*.bak
+*.swp
