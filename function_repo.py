@@ -4,6 +4,7 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.regularizers import l2
 from tensorflow.keras import backend as K
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
+
 import matplotlib.pyplot as plt
 
 def contrastive_loss(y_true, y_pred, margin=1.0):
